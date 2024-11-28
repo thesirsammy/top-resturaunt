@@ -1,4 +1,84 @@
 /* styles.css */
+:root {
+  --primary: #2ce81b;
+  --secondary: #e14f2b;
+}
+
 body {
-    background-color: rebeccapurple;
-  }
+    background-color: #252525;
+    color: white;
+}
+
+h1, p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: var(--primary);
+}
+
+img {
+  height: 170px;
+  width: auto;
+}
+
+button {
+  background: var(--primary);
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  box-shadow: none;
+  padding: 10px 20px;
+  transition: 0.15s;
+}
+
+button:hover {
+  background: var(--secondary );
+  box-shadow: 0px 0px 15px var(--primary);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.img-chef {
+  height: 200px;
+  width: fit-content;
+  border-radius: 200px;;
+}

@@ -1,4 +1,6 @@
 // index.js
+import "./styles.css"
+
 import switchHome from "./home.js";
 import switchMenu from "./menu.js";
 import switchAbout from "./about.js";
